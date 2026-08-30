@@ -95,11 +95,11 @@ body{
     animation: "imageChange" 23s linear infinite;
 }
 @keyframes imageChange{
-    0%{background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(project/img/ys2.jfif);}
-    25%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(project/img/rk.jfif);}
-    50%{background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(project/img/ys.jfif);}
-    75%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(project/img/ys3.jfif);}
-    100%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(project/img/tp.jfif);}
+    0%{background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(./img/ys2.jfif);}
+    25%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(./img/rk.jfif);}
+    50%{background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(./img/ys.jfif);}
+    75%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(./img/ys3.jfif);}
+    100%{ background-image: linear-gradient(to bottom,rgba(0,0,0,0.3)),url(./img/tp.jfif);}
 }
 
 .Hero-section h1{
