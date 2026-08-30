@@ -9,6 +9,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 <link rel="icon" type="image/png" href="img/logo.png">
 
 <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <title>YASHODHA PROMOTERS & DEVELOPERS</title>
 </head>
@@ -263,18 +264,35 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <h3>Send Enquiry</h3>
 
-            <form action="submit.php" method="POST">
+            <form>
 
-               <input type="text" name="name" placeholder="Your Name" required>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="name"
+               placeholder="Your Name" required>
+    </div>
 
-<input type="email" name="email" placeholder="Your Email" required>
+    <div class="mb-3">
+        <input type="email" class="form-control" name="email"
+               placeholder="Your Email" required>
+    </div>
 
-<input type="tel" name="phone" placeholder="Your Phone" required>
+    <div class="mb-3">
+        <input type="tel" class="form-control" name="phone"
+               placeholder="Your Phone" required>
+    </div>
 
-<textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <div class="mb-3">
+        <textarea class="form-control" name="message"
+                  placeholder="Your Message" rows="5" required></textarea>
+    </div>
 
-<button type="submit">Send Enquiry</button>
-            </form>
+    <button type="submit" class="btn btn-primary">
+        Send Enquiry
+    </button>
+
+</form>
+
+    
 
         </div>
 
@@ -300,7 +318,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
               <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
             
-        </div>
+        </div>    
 
 
         <div class="footer-box">
